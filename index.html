@@ -16,7 +16,7 @@
   </head>
 <body>
 <div class="container">
-<h1 class="text-center">GRADING SYSTEM</h1>
+<h1 class="text-center my-5">GRADING SYSTEM</h1>
 <table class="table table-light table-striped bordered">
     <thead class="thead-dark">
         <tr>
@@ -63,34 +63,39 @@
 </table>
 
     <br>
+    <br>
+    <h1 class="text-center my-3">SCORE INPUT</h1>
         
-    <form id="form1" method="post" action="">
+    <form id="form1" class="row" method="post" action="">
         <div class="form-group col-md-6">
-            <label for="name">MATHEMATICS</label>
+            <label for="name" class="form-label">MATHEMATICS</label>
             <input id="math" class="form-control" type="text" name="">
         </div>
 
         <div class="form-group col-md-6">
-            <label for="name">ENGLISH</label>
+            <label for="name" class="form-label">ENGLISH</label>
             <input id="eng" class="form-control" type="text" name="">
         </div>
 
         <div class="form-group col-md-6">
-            <label for="name">PHYSICS</label>
+            <label for="name" class="form-label">PHYSICS</label>
             <input id="phy" class="form-control" type="text" name="">
         </div>
 
         <div class="col-md-6 form-group">
-            <label for="name">CHEMISTRY</label>
+            <label for="name" class="form-label">CHEMISTRY</label>
             <input id="chm" class="form-control" type="text" name="">
         </div>
 
         <div class="col-md-6 form-group">
-            <label for="name">BIOLOGY</label>
+            <label for="name" class="form-label">BIOLOGY</label>
             <input id="bio" class="form-control" type="text" name="">
         </div>
 
-        <input type="submit" value="submit">
+        <div class="col-md-6 form-group align-self-end">
+            <input class="btn btn-success" type="submit" value="submit">
+        </div>
+
     </form>
 </div>
     
