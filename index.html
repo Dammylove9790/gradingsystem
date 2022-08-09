@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+<body>
+<div class="container">
+<h1 class="text-center">GRADING SYSTEM</h1>
+<table class="table table-light table-striped bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Subject</th>
+            <th>Score</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MATHEMATICS:</td>
+            <td id="score_math"></td>
+            <td id="display_math"></td>
+        </tr>
+        <tr>
+            <td>ENGLISH:</td>
+            <td id="score_eng"></td>
+            <td id="display_eng"></td>
+        </tr>
+        <tr>
+            <td>PHYSICS: </td>
+            <td id="score_phy"></td>
+            <td id="display_phy"></td>
+        </tr>
+        <tr>
+            <td>CHEMISTRY:</td>
+            <td id="score_chm"></td>
+            <td id="display_chm"></td>
+        </tr>
+        <tr>
+            <td>BIOLOGY:</td>
+            <td id="score_bio"></td>
+            <td id="display_bio"></td>
+        </tr>
+    </tbody>
+    <!-- <tfoot>
+        <tr>
+            <th>#</th>
+            <th>#</th>
+            <th>#</th>
+            <th>#</th>
+        </tr>
+    </tfoot> -->
+</table>
+
+    <br>
+        
+    <form id="form1" method="post" action="">
+        <div class="form-group col-md-6">
+            <label for="name">MATHEMATICS</label>
+            <input id="math" class="form-control" type="text" name="">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="name">ENGLISH</label>
+            <input id="eng" class="form-control" type="text" name="">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="name">PHYSICS</label>
+            <input id="phy" class="form-control" type="text" name="">
+        </div>
+
+        <div class="col-md-6 form-group">
+            <label for="name">CHEMISTRY</label>
+            <input id="chm" class="form-control" type="text" name="">
+        </div>
+
+        <div class="col-md-6 form-group">
+            <label for="name">BIOLOGY</label>
+            <input id="bio" class="form-control" type="text" name="">
+        </div>
+
+        <input type="submit" value="submit">
+    </form>
+</div>
+    
+</body>
+
+
+
+<script src="script.js"></script>
+</html>
+
